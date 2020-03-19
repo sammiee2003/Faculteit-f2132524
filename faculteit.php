@@ -1,6 +1,6 @@
 <?php
 
-echo "van welk getal wil je de faculteid weten?";
+echo "van welk getal wil je de faculteit weten?";
 $getal = readline();
 $br = $getal;
 
@@ -8,4 +8,4 @@ for ($i = 1; $i < $getal; $i ++){
     $br = $br * $i;
 }
 
-echo "de facultijd van $getal is $br";
+echo "de faculteit van $getal is $br";
